@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <!--
-A simple sandwich shop website
+A simple sandwich shop web site
 -->
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
         <title>Shelly's Sandwich Shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,27 +15,53 @@ A simple sandwich shop website
             <header>
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="index.html">Home</a></li> 
+                        <li><a href="index.html" class="selected">Home</a></li> 
                         <li><a href="#about">About</a></li>
                         <li><a href="#menu">Menu</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li><a href="#join">Join Us!</a></li>
                     </ul>
                 </nav>
+            </header>
+
                 <!-- Add a join button? -->
                 <div class="main-content">
                     <h1>Shelly's Sandwich Shop!</h1>
-                    <h2>Come discover our shop!</h2>
-                    <h3>We support farm to table</h3>
-                    <h3>Looking for an exotic sandwich?</h3>
-                    <h3>Want gourmet coffee?</h3>
-                    
-                    
+                    <div class="introduction">
+                        <h2>Come discover our shop!</h2>
+                        <img id="main-pic" src="http://image.shutterstock.com/z/stock-photo-group-of-ciabatta-bread-sandwiches-stuffed-meat-cheese-and-vegetables-47577601.jpg" title="One of our famous gourmet sandwiches" alt="photo of gourmet Italian-style sub sandwich">
+                    </div>
+                    <div class="feature-section">
+                        <div class="section1">
+                            <h3>We support farm to table</h3>
+                            <img class="secondary-pic" src="https://www.colourbox.com/preview/6143519-various-types-of-sandwiches.jpg" title="Only the freshest ingredients go in our food!" alt="photo of local vegetables on gourmet sandwich">
+                            <p>We are committed to providing our customers with the freshest ingredients around. Not only do they taste better but they are healthier too! We are proud supporters of local farmers in southern New Jersey.</p>
+                        </div>
+                        <div class="section2">
+                            <h3>Looking for an exotic sandwich?</h3>
+                            <img class="secondary-pic" src="https://www.colourbox.com/preview/4506288-dessert-sandwiches-with-strawberry-and-soft-cheese.jpg" title="How about a desert sandwich?" alt="photo of strawberry and creamcheese sandwich">
+                            <p>Then you have found the right place! We have a selection of rare and unique sandwiches you won't find anywhere else! Take a look at our <a href="#menu">menu</a> to get an idea of what we offer.</p>
+                        </div>
+                        <div class="section3">
+                            <h3>Want gourmet coffee?</h3>
+                            <img class="secondary-pic" src="http://previews.123rf.com/images/voronin76/voronin760912/voronin76091200017/6005342-Cup-from-coffee-on-coffee-grains-Stock-Photo-smoke-cup.jpg" title="Gourmet expresso" alt="beautiful cup of coffee on coffee beans">
+                            <p>Sometimes a great cup of coffee is just what it takes. We have a selection of gourmet beans roasted locally at <a href="#java-joe">Java Joe's</a>!</p>
+                        </div>
+                    </div>
                 </div>
-            </header>
+                <!-- Add a back to top link-->
+                <div class='secondary-content'>                    
+                    <h2>We also cater!</h2>
+                    <p>Parties, dinners, lunches, whatever the occasion!</p>
+                    <a href='#schedule'>Click to schedule!</a>
+                </div>
 
                 
-
+                <footer>
+                    <!-- add links to all pages on website-->
+                    <p><a>&copy Rachelle Wood, 2016.</a></p>
+                    
+                </footer>
             
         </div>
     </body>
