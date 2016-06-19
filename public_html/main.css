@@ -38,18 +38,23 @@ h3 {
     width: 100%;
 }
 
-a {
+a:link {
     text-decoration: none;
     color: #FF7F50;
+}
+
+a:visited {
+    color: #A9A9A9;
 }
 
 a:hover {
     color: #DC143C;
 }
 
-a:visited {
-    color: #A9A9A9;
+a:active {
+    color: #fff;
 }
+
 
 /* MAIN HEADER STYLES */
 
@@ -139,4 +144,56 @@ a:visited {
     border-radius: 10px;
 }
 
-/*  */
+/* SECONDARY CONTENT STYLES */
+
+.tertiary-pic {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.secondary-content {
+    background-color: #B0C4DE;
+    text-align: center;
+    margin: -40px;
+    height: 1000px;
+}
+
+.secondary-content h2{
+    padding: 5px 0;
+}
+
+.secondary-content p {
+    padding: 25px;
+}
+
+#schedule-btn {
+    padding: 15px 20px;
+    border: 1px solid black;
+    background: linear-gradient(to left, #DC143C, #FFB6C1);
+    box-shadow: 0 0 2px 2px #000;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#selected-btn:link {
+    color: #fff;
+}
+
+#schedule-btn:hover {
+    color: #FF00FF;
+}
+
+#schedule-btn:active {
+    color: #8B0000;
+}
+
+
+/* FOOTER STYLES */
+
+footer {
+    height: 150px;
+    background-color: #778899;
+    margin: 40px -15px -70px;
+    text-align: center;
+    padding: 25px 0;
+}
