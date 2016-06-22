@@ -1,10 +1,11 @@
 /*
-STYLESHEET FOR INDEX PAGE
+STYLE SHEET FOR ABOUT PAGE
 */
 /* 
-    Created on : Jun 16, 2016, 10:25:53 PM
+    Created on : Jun 21, 2016, 8:46:22 PM
     Author     : rachelle
 */
+
 
 /* GENERAL STYLES */
 
@@ -28,11 +29,20 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     font-size: 3rem;
 }
 
 h3 {
     font-size: 1.5rem;
+}
+
+strong {
+    color:#FF7F50;
+}
+
+p {
+    text-height: 3.5px;
 }
 
 .container {
@@ -113,88 +123,79 @@ a:active {
 .main-content {
     background-color: #FAF0E6;
     margin: 20px -15px;
-    padding: 1px 15px;
+    padding: 1px 50px;
 }
 
-.introduction {
-    text-align: center;
+.about-content {
     margin: auto;
 }
 
-#main-pic {
-    width:50%;
-}
-
-.feature-section {
+.about-content h1,
+.about-content h2 {
     text-align: center;
-    padding-bottom: 5px;
 }
 
-.section1,
-.section2,
-.section3 {
-    width: 33%;
+#main-pic {
+    width:20%;
+    border-radius: 10px;
+}
+
+.first-para,
+.second-para,
+.third-para,
+#main-pic {
     display: inline-block;
     margin: 0 5px;
     padding: 5px;
-    
+    vertical-align: text-top;
 }
 
+.first-para,
+.second-para,
+.third-para {
+    width: 25%;
 
-.secondary-pic {
-    border-radius: 10px;
 }
 
-/* SECONDARY CONTENT STYLES */
-
-.tertiary-pic {
-    width: 50%;
-    border-radius: 10px;
-}
-
-.secondary-content {
-    background-color: #B0C4DE;
+.first-para h3,
+.second-para h3,
+.third-para h3 {
     text-align: center;
-    margin: -55px;
-    height: 1000px;
 }
 
-.secondary-content h2{
-    padding: 5px 0;
+/* INFORMATION STYLES */
+
+.location,
+.contact-details,
+.times {
+    display: inline-block;
+    width: 30%;
+    vertical-align: text-top;
+    margin: 0 25px;
+    padding: 0 5px;
+    text-align: center;
 }
 
-.secondary-content p {
-    padding: 25px;
+
+.contact-details ul {
+    padding-left: 5px;
 }
 
-#schedule-btn {
-    padding: 15px 20px;
-    border: 1px solid black;
-    background: linear-gradient(to left, #DC143C, #FFB6C1);
-    box-shadow: 0 0 2px 2px #000;
-    border-radius: 5px;
-    margin: 5px 0;
+.contact-details ul li {
+    list-style: none;
+    display: inline;
 }
 
-#selected-btn:link {
-    color: #fff;
+.icon {
+    margin-right: 5px;
 }
-
-#schedule-btn:hover {
-    color: #FF00FF;
-}
-
-#schedule-btn:active {
-    color: #8B0000;
-}
-
 
 /* FOOTER STYLES */
 
 footer {
     height: 150px;
     background-color: #778899;
-    margin: 40px -15px -70px;
+    margin: -20px -15px -70px;
     text-align: center;
     padding: 25px 0;
 }
