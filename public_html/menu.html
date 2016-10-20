@@ -30,7 +30,8 @@ A menu page for Shelly's Sandwich Shop
                 <h2>Summer Menu</h2>
               </div>
               <div class="table-container">
-                  <table>
+                <!-- APPETIZERS TABLE -->
+                  <table id="appetizers">
                       <thead>
                           <tr>
                               <th>Appetizers and Soups</th>
@@ -94,8 +95,8 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
                       </tbody>
                   </table>
-
-                  <table>
+                  <!-- SALADS TABLE -->
+                  <table id="salads">
                       <thead>
                           <tr>
                               <th>Salads</th>
@@ -145,7 +146,8 @@ A menu page for Shelly's Sandwich Shop
                   </table>
                   <br />
                   <a class="top-btn" href="#top">Go back to top</a>
-                  <table>
+                  <!-- SANDWICHES TABLE -->
+                  <table id="sandwiches">
                     <thead>
                       <tr>
                         <th>Sandwiches</th>
@@ -276,7 +278,8 @@ A menu page for Shelly's Sandwich Shop
                   </table>
                   <br />
                   <a class="top-btn" href="#top">Go back to top</a>
-                  <table>
+                  <!-- SIDES TABLE -->
+                  <table id="sides">
                     <thead>
                       <tr>
                         <th>Sides</th>
@@ -334,7 +337,8 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                     </tbody>
                   </table>
-                  <table>
+                  <!-- BREAD TABLE -->
+                  <table id="bread">
                     <thead>
                       <tr>
                         <th>Bread and Sauces</th>
@@ -363,6 +367,7 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                     </tbody>
                   </table>
+                  <!-- DESSERTS TABLE -->
                   <table>
                     <thead>
                       <tr>
@@ -387,10 +392,13 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                       <tr>
                         <td>Iced Sandwich</td>
-                        <td>$4.00 + 1 with additional ingredients</td>
+                        <td>$4.00</td>
                       </tr>
                       <tr>
                         <td>Customize your own with a scoop of ice cream (strawberry, French vanilla bean, dark chocolate, salted caramel, cinnamon or pistacchio), fruit (strawberries, raspberries, apples, pears, cherries) or chunks (chocolate, caramel, toffee) in between either two cookies (chocolate chip, shortbreads, pecan cookies or oatmeal cookies) or two macaroons (chocolate, strawberry, pistacchio, coffee) and whipped cream.</td>
+                      </tr>
+                      <tr>
+                        <td> Add $1.00 for each additional ingredient other than extra whipped cream.</td>
                       </tr>
                       <tr>
                         <td>Clafoutis</td>
@@ -415,9 +423,8 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                     </tbody>
                   </table>
-                  <br />
-                  <a class="top-btn" href="#top">Go back to top</a>
-                  <table>
+                  <!-- COLD DRINKS TABLE -->
+                  <table id="cold-drinks">
                     <thead>
                       <tr>
                         <th>Cold Drinks</th>
@@ -435,14 +442,20 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                       <tr>
                         <td>Orangina</td>
+                      </tr>
+                      <tr>
                         <td>Famous pulpy French citrus drink. Very refreshing!</td>
                       </tr>
                       <tr>
                         <td>Fanta</td>
+                      </tr>
+                      <tr>
                         <td>Orange, Lemon, Berry</td>
                       </tr>
                       <tr>
                         <td>French <i>limonade</i></td>
+                      </tr>
+                      <tr>
                         <td>Imported, traditional bubbly soda. Lemon, clementine, tangerine and peach.</td>
                       </tr>
                       <tr>
@@ -457,14 +470,20 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                       <tr>
                         <td>Minute Maid juices</td>
+                      </tr>
+                      <tr>
                         <td>Apple, grape, orange</td>
                       </tr>
                       <tr>
                         <td>Nectar</td>
+                      </tr>
+                      <tr>
                         <td>Apricot, mango and pear.</td>
                       </tr>
                       <tr>
                         <td>Oasis</td>
+                      </tr>
+                      <tr>
                         <td>Imported tropical fruit drink (passion fruit, pineapple, mango and others)</td>
                       </tr>
                       <tr>
@@ -473,10 +492,14 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                       <tr>
                         <td>Flat Water</td>
+                      </tr>
+                      <tr>
                         <td>Evian, Volvic (plain, lemon, strawberry, orange)</td>
                       </tr>
                       <tr>
                         <td>Bubbly Water</td>
+                      </tr>
+                      <tr>
                         <td>Badoit, San Pellegrino, Perrier</td>
                       </tr>
                       <tr>
@@ -488,11 +511,14 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                       <tr>
                         <td>Nestea</td>
+                      </tr>
+                      <tr>
                         <td>Lemon, citrus</td>
                       </tr>
                     </tbody>
                   </table>
-                  <table>
+                  <!-- COLD DRINKS TABLE -->
+                  <table id="hot-drinks">
                     <thead>
                       <tr>
                         <th>Hot Drinks</th>
@@ -501,6 +527,8 @@ A menu page for Shelly's Sandwich Shop
                     <tfoot>
                       <tr>
                         <td><a href="#">Java Joe's</a> coffee! Fresh, everyday.</td>
+                      </tr>
+                      <tr>
                         <td>All tea is <a href="#">St.-Dalfour</a>, organic tea. All herbal tea is <a href="#">Eléphant</a>.</td>
                       </tr>
                     </tfoot>
@@ -535,10 +563,14 @@ A menu page for Shelly's Sandwich Shop
                       </tr>
                       <tr>
                         <td>Caffeinated</td>
+                      </tr>
+                      <tr>
                         <td>Ceylann, Darjeeling, Earl Grey, peppermint</td>
                       </tr>
                       <tr>
                         <td>Herbal</td>
+                      </tr>
+                      <tr>
                         <td>Verbena, Mock Orange, Mint, Camomile</td>
                       </tr>
                     </tbody>

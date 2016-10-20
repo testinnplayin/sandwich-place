@@ -110,7 +110,7 @@ a:active {
 
 .main-content {
     background-color: #FAF0E6;
-    margin: 20px -15px;
+    margin: 20px -15px -40px;
     padding: 1px 15px;
 }
 
@@ -133,6 +133,8 @@ p {
 
 .table-container {
   border: 1px solid black;
+  margin: 10px 20px 20px;
+  padding: 15px;
 }
 
 #schedule-btn:link {
@@ -148,12 +150,51 @@ p {
 }
 
 tfoot tr td {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .sm-th {
   font-size: 16px;
 }
+
+
+
+/* SPECIFIC TABLES */
+
+#sides,
+#bread {
+  width: 45%;
+  display: inline-block;
+  vertical-align: text-top;
+  padding: 40px 0;
+}
+
+#hot-drinks,
+#cold-drinks {
+  width: 45%;
+  display: inline-block;
+  vertical-align: text-top;
+  padding: 40px 0;
+}
+
+
+#cold-drinks {
+  margin-left: 100px;
+}
+
+#hot-drinks {
+  margin-left: 50px;
+}
+
+#bread {
+  margin-left: 30px;
+}
+
+#sides {
+  margin-right: 30px;
+}
+
+
 
 /* FOOTER STYLES */
 
