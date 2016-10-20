@@ -1,7 +1,7 @@
 /*
 STYLESHEET FOR INDEX PAGE
 */
-/* 
+/*
     Created on : Jun 16, 2016, 10:25:53 PM
     Author     : rachelle
 */
@@ -137,7 +137,7 @@ a:active {
     display: inline-block;
     margin: 0 5px;
     padding: 5px;
-    
+
 }
 
 
@@ -192,9 +192,10 @@ a:active {
 /* FOOTER STYLES */
 
 footer {
-    height: 150px;
+    height: 100px;
     background-color: #778899;
-    margin: 40px -15px -70px;
+    margin: 40px -15px -15px;
     text-align: center;
     padding: 25px 0;
+    border-top: 1px solid darkgray;
 }
