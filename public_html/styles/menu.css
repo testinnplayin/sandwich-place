@@ -153,6 +153,10 @@ tfoot tr td {
   font-size: 15px;
 }
 
+.l-th {
+  font-size: 22px;
+}
+
 .sm-th {
   font-size: 16px;
 }
@@ -194,6 +198,15 @@ tfoot tr td {
   margin-right: 30px;
 }
 
+#salads,
+#appetizers,
+#sandwiches,
+#desserts {
+  padding: 40px 0;
+  margin: auto;
+  width: 80%;
+}
+
 
 
 /* FOOTER STYLES */
@@ -205,4 +218,18 @@ footer {
     text-align: center;
     padding: 25px 0;
     border-top: 1px solid darkgray;
+}
+
+
+
+/* SPECIFIC STYLES */
+
+.food-name {
+  text-decoration: underline;
+}
+
+.veg {
+  color: green;
+  font-weight: bold;
+  font-size: 22px;
 }

@@ -4,12 +4,12 @@ A menu page for Shelly's Sandwich Shop
 -->
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="styles/menu.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
-        <link href="img/sandwich.ico" rel="icon" type="image/x-icon" />
-        <title>Menu | Shelly's Sandwich Shop</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Menu | Shelly's Sandwich Shop</title>
+      <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+      <link href="img/sandwich.ico" rel="icon" type="image/x-icon" />
+      <link rel="stylesheet" type="text/css" href="styles/menu.css"/>
     </head>
     <body>
         <div class='container'>
@@ -34,7 +34,7 @@ A menu page for Shelly's Sandwich Shop
                   <table id="appetizers">
                       <thead>
                           <tr>
-                              <th>Appetizers and Soups</th>
+                              <th class="l-th">Appetizers and Soups</th>
                           </tr>
                       </thead>
                       <tfoot>
@@ -44,16 +44,17 @@ A menu page for Shelly's Sandwich Shop
                       </tfoot>
                       <tbody>
                           <tr>
-                              <td>Small Side Salad</td>
+                              <td class="food-name">Small Side Salad<span class="veg"> V</span></td>
                               <td>$3.00</td>
                           </tr>
                           <tr>
                               <td>This small salad incorporates seasonal lettuce mixes. Please ask server for details. Served with warm, fresh bread, butter on the side and a choice of dressing.</td>
-                              <td>Add grilled chicken ... $4.75</td>
                           </tr>
-
                           <tr>
-                              <td>Antipasto</td>
+                            <td>Add $1.50 for grilled, free-range, corn-fed chicken.</td>
+                          </tr>
+                          <tr>
+                              <td class="food-name">Antipasto<span class="veg"> V</span></td>
                               <td>$5.00</td>
                           </tr>
                           <tr>
@@ -61,7 +62,7 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
 
                           <tr>
-                              <td>Smoked Salmon Snack</td>
+                              <td class="food-name">Smoked Salmon Snack</td>
                               <td>$5.50</td>
                           </tr>
                           <tr>
@@ -69,7 +70,7 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
 
                           <tr>
-                              <td>Egg Mayonnaise Salad</td>
+                              <td class="food-name">Egg Mayonnaise Salad</td>
                               <td>$3.50</td>
                           </tr>
                           <tr>
@@ -77,7 +78,7 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
 
                           <tr>
-                              <td>Soup of the Day</td>
+                              <td class="food-name">Soup of the Day</td>
                               <td>Cup ... $2.00, Bowl ... $4.00</td>
                           </tr>
                           <tr>
@@ -87,7 +88,7 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
 
                           <tr>
-                              <td>French Onion Soup</td>
+                              <td class="food-name">French Onion Soup<span class="veg"> V</span></td>
                               <td>Cup ... $2.00, Bowl ... $4.00</td>
                           </tr>
                           <tr>
@@ -99,7 +100,7 @@ A menu page for Shelly's Sandwich Shop
                   <table id="salads">
                       <thead>
                           <tr>
-                              <th>Salads</th>
+                              <th class="l-th">Salads</th>
                           </tr>
                       </thead>
                       <tfoot>
@@ -112,15 +113,15 @@ A menu page for Shelly's Sandwich Shop
                       </tfoot>
                       <tbody>
                           <tr>
-                              <td>Goat Cheese and its Salad</td>
+                              <td class="food-name">Goat Cheese and its Salad</td>
                               <td>$8.00</td>
                           </tr>
                           <tr>
-                              <td>Warm cabecou goat cheese patties on toasted, whole-grain baguette served on seasonal lettuce, walnuts and a walnut oil vinaigrette.</td>
+                              <td>Warm cabécou goat cheese patties on toasted, whole-grain baguette served on seasonal lettuce, walnuts and a walnut oil vinaigrette.</td>
                           </tr>
 
                           <tr>
-                              <td>Salade niçoise</td>
+                              <td class="food-name">Salade niçoise</td>
                               <td>$9.00</td>
                           </tr>
                           <tr>
@@ -128,7 +129,7 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
 
                           <tr>
-                              <td>Super Veggie Salad!</td>
+                              <td class="food-name">Super Veggie Salad!<span class="veg"> V</span></td>
                               <td>$7.00</td>
                           </tr>
                           <tr>
@@ -136,11 +137,11 @@ A menu page for Shelly's Sandwich Shop
                           </tr>
 
                           <tr>
-                              <td>Cold Cuts and Seasonal Salad</td>
+                              <td class="food-name">Cold Cuts and Seasonal Salad</td>
                               <td>$12.00</td>
                           </tr>
                           <tr>
-                              <td>Cooked Parisian ham, rosette, dry sausage, rustic duck pâté and Bayonne ham served with seasonal salad and French cornichons. Comes with French Dijon mustard.</td>
+                              <td>Cooked Parisian ham, rosette, dry sausage, rustic duck <i>pâté</i> and Bayonne ham served with seasonal salad and French <i>cornichons</i>. Comes with French Dijon mustard.</td>
                           </tr>
                       </tbody>
                   </table>
@@ -150,7 +151,7 @@ A menu page for Shelly's Sandwich Shop
                   <table id="sandwiches">
                     <thead>
                       <tr>
-                        <th>Sandwiches</th>
+                        <th class="l-th">Sandwiches</th>
                       </tr>
                     </thead>
                     <tfoot>
@@ -163,116 +164,130 @@ A menu page for Shelly's Sandwich Shop
                     </tfoot>
                     <tbody>
                       <tr>
-                        <td>Custom Sandwich!</td>
+                        <td class="food-name">Custom Sandwich!</td>
                         <td>$6.00</td>
                       </tr>
                       <tr>
-                        <td>Your choice of one meat (roast chicken, roast turkey, smoked turkey, canned tuna, cooked Parisian ham, Bayonne ham, smoked ham, Prosciutto, Bressaola, viande de Grison, roast beef, smoked salmon, smoked trout), two vegetables (lettuce, tomatoes, avocado, seasonal greens, fries, mushrooms, bell peppers, raw onions, sauteed onions, shredded carrots, cucumbers, black olives), a cheese (Swiss, Provolone, Parmagianno, Mozzarella, Camembert, Brie, Cheddar, goat) and a sauce (mayonnaise, oil and vinegar, vinaigrette, Algerian sauce, ketchup, Dijon mustard, pistou) and condiments (dill pickle, French cornichons, herbs, spices, black or green tapenade) on your choice of bread (baguette, Italian, French country bread, panini, tortilla, whole wheat, white)</td>
+                        <td>Your choice of one meat (roast chicken, roast turkey, smoked turkey, tuna, cooked Parisian ham, Bayonne ham, smoked ham, prosciutto, bressaola, <i>viande de Grison</i>, roast beef, smoked salmon, smoked trout), two vegetables (lettuce, tomatoes, avocado, seasonal greens, fries, mushrooms, bell peppers, raw onions, sautéed onions, shredded carrots, cucumbers, black olives), a cheese (Swiss, provolone, parmagianno, mozzarella, camembert, brie, cheddar, goat) and a sauce (mayonnaise, oil and vinegar, vinaigrette, Algerian sauce, ketchup, Dijon mustard, <i>pistou</i>) and condiments (French <i>cornichons</i>, herbs, spices, black or green <i>tapenade</i>) on your choice of bread (baguette, Italian, French country bread, panini, tortilla, whole wheat, white)</td>
+                      </tr>
+                      <tr>
                         <td>Add $1.00 for each additional ingredient, $0.50 for each sauce or condiment.</td>
                       </tr>
                       <tr>
-                        <td>Parisian Classic</td>
+                        <td class="food-name">Parisian Classic</td>
                         <td>$3.50</td>
                       </tr>
                       <tr>
                         <td>Parisian cooked ham on heavily buttered baguette. Simple but tasty!</td>
                       </tr>
                       <tr>
-                        <td>Rosette Classic</td>
+                        <td class="food-name">Rosette Classic</td>
                         <td>$3.50</td>
                       </tr>
                       <tr>
-                        <td>Thin slices of rosette and French cornichons on heavily buttered baguette.</td>
+                        <td>Thin slices of rosette and French <i>cornichons</i> on heavily buttered baguette.</td>
                       </tr>
                       <tr>
-                        <td>Ham 'n' Cheese</td>
+                        <td class="food-name">Ham 'n' Cheese</td>
                         <td>$4.00</td>
                       </tr>
                       <tr>
                         <td>Thickly-sliced Swiss cheese, Parisian cooked ham on heavily buttered baguette.</td>
                       </tr>
                       <tr>
-                        <td>Chicken and Salad</td>
+                        <td class="food-name">Chicken and Salad</td>
                         <td>$4.50</td>
                       </tr>
                       <tr>
                         <td>Generously portioned! Lots of roast chicken, lettuce, tomatoes, cucumber, shredded carrots on baguette. Served with mayonnaise.</td>
                       </tr>
                       <tr>
-                        <td>Le Provençal</td>
+                        <tr>
+                          <td class="food-name">Salad Sandwich<span class="veg"> V</span></td>
+                          <td>$3.50</td>
+                        </tr>
+                        <tr>
+                          <td>Greens, tomatoes, cucumbers and avocado on baguette. All vegetables are farm-fresh and seasonal. Feel free to ask for any sauces.</td>
+                        </tr>
+                        <tr>
+                          <td>Add a free-range, sliced, hard-boiled egg for $1.00.</td>
+                        </tr>
+                      </tr>
+                      <tr>
+                        <td class="food-name">Le Provençal</td>
                         <td>$6.50</td>
                       </tr>
                       <tr>
-                        <td>Smoked trout with ratatouille and black tapenade served warm on a panini. Open-faced sandwich</td>
+                        <td>Smoked trout with ratatouille and black <i>tapenade</i> served warm on a panini. Open-faced sandwich.</td>
                       </tr>
                       <tr>
-                        <td>Mushroom Delight</td>
+                        <td class="food-name">Mushroom Delight</td>
                         <td>$5.50</td>
                       <tr>
-                        <td>Sauteed mushrooms (<i>champignons de Paris</i> and seasonal mushrooms, please ask) served with Swiss cheese on a bed of seasonal greens. Served on French country bread.</td>
+                        <td>Sautéed mushrooms (<i>champignons de Paris</i> and seasonal mushrooms, please ask) served with Swiss cheese on a bed of seasonal greens. Served on French country bread.</td>
                       </tr>
                       <tr>
-                        <td>Salmon Blinis</td>
+                        <td class="food-name">Salmon Blinis</td>
                         <td>$8.00</td>
                       </tr>
                       <tr>
                         <td>Norwegian smoked salmon served with clotted cream and blinis. Side dish of cucumbers, salad greens and tomatoes.</td>
                       </tr>
                       <tr>
-                        <td>Breakfast Sandwich</td>
+                        <td class="food-name">Breakfast Sandwich</td>
                         <td>$5.00</td>
                       </tr>
                       <tr>
-                        <td>Scrambled eggs served in a flour tortilla wrap with salsa, jalapenos and sauteed potatoes.</td>
+                        <td>Scrambled eggs served in a flour tortilla wrap with salsa, jalapenos and sautéed potatoes.</td>
                       </tr>
                       <tr>
-                        <td>Cabecou and Salad Sandwich</td>
+                        <td class="food-name">Cabécou and Salad Sandwich</td>
                         <td>$6.00</td>
                       </tr>
                       <tr>
-                        <td>Hot, cabecou goat cheese on toasted, rustic, well-buttered French country bread served with seasonal greens, walnuts and vinaigrette.</td>
+                        <td>Hot, cabécou goat cheese on toasted, rustic, well-buttered French country bread served with seasonal greens, walnuts and vinaigrette.</td>
                       </tr>
                       <tr>
-                        <td>French Hoagie, Oh My!</td>
+                        <td class="food-name">French Hoagie, Oh My!</td>
                         <td>$6.50</td>
                       </tr>
                       <tr>
                         <td>Rosette, Parisian cooked ham, lots of butter, vinaigrette, salad greens, tomatoes, olives and camembert on a baguette. Bring your appetite!</td>
                       </tr>
                       <tr>
-                        <td>Little Italian Sub</td>
+                        <td class="food-name">Little Italian Sub</td>
                         <td>$6.00</td>
                       </tr>
                       <tr>
                         <td>Bressaola and prosciutto with provolone cheese and seasonal greens served with Italian bread and olive oil.</td>
                       </tr>
                       <tr>
-                        <td>Croque Monsieur</td>
+                        <td class="food-name">Croque Monsieur</td>
                         <td>$4.00</td>
                       </tr>
                       <tr>
                         <td>Another way to eat a grilled cheese sandwich! Swiss cheese, cooked Parisian ham and bechamel sauce on white bread. Served with fries.</td>
                       </tr>
                       <tr>
-                        <td>Croque Madame</td>
+                        <td class="food-name">Croque Madame</td>
                         <td>$5.00</td>
                       </tr>
                       <tr>
                         <td>Like a <i>croque monsieur</i> but add a sunny-side up, free-range egg on top. Simply delicious and wholesome! Served with fries.</td>
                       </tr>
                       <tr>
-                        <td>Tartiflette Sandwich</td>
+                        <td class="food-name">Tartiflette Sandwich</td>
                         <td>$7.00</td>
                       </tr>
                       <tr>
                         <td>Hungry? Have one of these! Slices of potato, copious amounts of reblochon cheese, <i>lardons</i> and onions. Served on warm baguette.</td>
                       </tr>
                       <tr>
-                        <td>Raclette Sandwich</td>
+                        <td class="food-name">Raclette Sandwich</td>
                         <td>$9.00</td>
                       </tr>
                       <tr>
-                        <td>Hot, raclette cheese topping fine slices of viande de Grison and potatoes and French cornichons served on French country bread. Very filling!</td>
+                        <td>Hot, raclette cheese topping fine slices of <i>viande de Grison</i> and potatoes and French <i>cornichons</i> served on French country bread. Very filling!</td>
                       </tr>
                     </tbody>
                   </table>
@@ -282,54 +297,54 @@ A menu page for Shelly's Sandwich Shop
                   <table id="sides">
                     <thead>
                       <tr>
-                        <th>Sides</th>
+                        <th class="l-th">Sides</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Fries</td>
+                        <td class="food-name">Fries<span class="veg"> V</span></td>
                         <td>$2.50</td>
                       </tr>
                       <tr>
                         <td>Famous <i>alumettes</i> fries, served with ketchup, mayonnaise or vinegar and salt.</td>
                       </tr>
                       <tr>
-                        <td>Sauteed Potatoes</td>
+                        <td class="food-name">Sauteed Potatoes</td>
                         <td>$3.00</td>
                       </tr>
                       <tr>
-                        <td>Potatoes sauteed in the Sarladaise fashion with <i>herbes de Province</i> and garlic.</td>
+                        <td>Potatoes sautéed in the Sarladaise fashion with <i>herbes de Province</i> and garlic.</td>
                       </tr>
                       <tr>
-                        <td>Soft-boiled Eggs</td>
+                        <td class="food-name">Soft-boiled Eggs</td>
                         <td>$2.00</td>
                       </tr>
                       <tr>
                         <td>Two cage-free, farm-fresh, soft-boiled eggs from corn-fed chickens.</td>
                       </tr>
                       <tr>
-                        <td>Green Beans (Haricots)</td>
+                        <td class="food-name">Green Beans (<i>Haricots</i>)<span class="veg"> V</span></td>
                         <td>$2.50</td>
                       </tr>
                       <tr>
                         <td>Either served warm, with a dash of diced garlic, or cold, with vinaigrette.</td>
                       </tr>
                       <tr>
-                        <td>French White Beans (Flageolets)</td>
+                        <td class="food-name">French White Beans (<i>Flageolets</i>)<span class="veg"> V</span></td>
                         <td>$2.00</td>
                       </tr>
                       <tr>
                         <td>A copious portion of white beans cooked in a garlic sauce. A classic!</td>
                       </tr>
                       <tr>
-                        <td>Ratatouille!</td>
+                        <td class="food-name">Ratatouille!<span class="veg"> V<span></td>
                         <td>$3.50</td>
                       </tr>
                       <tr>
                         <td>Vegetable side made from tomatoes, eggplant, zucchini, red bell peppers, garlic, onions and <i>bouquet garni</i>. Please specify if you want it served hot or cold.</td>
                       </tr>
                       <tr>
-                        <td>Chips (small packet)</td>
+                        <td class="food-name">Chips (small packet)<span class="veg"> V</span></td>
                         <td>$1.00</td>
                       </tr>
                       <tr>
@@ -341,7 +356,7 @@ A menu page for Shelly's Sandwich Shop
                   <table id="bread">
                     <thead>
                       <tr>
-                        <th>Bread and Sauces</th>
+                        <th class="l-th">Bread and Sauces</th>
                       </tr>
                     </thead>
                     <tfoot>
@@ -368,10 +383,10 @@ A menu page for Shelly's Sandwich Shop
                     </tbody>
                   </table>
                   <!-- DESSERTS TABLE -->
-                  <table>
+                  <table id="desserts">
                     <thead>
                       <tr>
-                        <th>Desserts</th>
+                        <th class="l-th">Desserts</th>
                       </tr>
                     </thead>
                     <tfoot>
@@ -384,14 +399,14 @@ A menu page for Shelly's Sandwich Shop
                     </tfoot>
                     <tbody>
                       <tr>
-                        <td>Strawberry Super Sandwich</td>
+                        <td class="food-name">Strawberry Super Sandwich</td>
                         <td>$4.00</td>
                       </tr>
                       <tr>
                         <td>Fresh strawberries, fresh cheese on buttered white bread. Served with lots of whipped cream.</td>
                       </tr>
                       <tr>
-                        <td>Iced Sandwich</td>
+                        <td class="food-name">Iced Sandwich</td>
                         <td>$4.00</td>
                       </tr>
                       <tr>
@@ -401,21 +416,21 @@ A menu page for Shelly's Sandwich Shop
                         <td> Add $1.00 for each additional ingredient other than extra whipped cream.</td>
                       </tr>
                       <tr>
-                        <td>Clafoutis</td>
+                        <td class="food-name">Clafoutis</td>
                         <td>$3.50</td>
                       </tr>
                       <tr>
                         <td>A cooked custard containing your choice of cherry or plum. A French classic!</td>
                       </tr>
                       <tr>
-                        <td>French Apple Tart</td>
+                        <td class="food-name">French Apple Tart</td>
                         <td>$4.00</td>
                       </tr>
                       <tr>
                         <td>Slices of apple in custard served on a fine, butter crust. Served warm.</td>
                       </tr>
                       <tr>
-                        <td>Meringue Strawberry Sandwich</td>
+                        <td class="food-name">Meringue Strawberry Sandwich</td>
                         <td>$4.00</td>
                       </tr>
                       <tr>
@@ -427,7 +442,7 @@ A menu page for Shelly's Sandwich Shop
                   <table id="cold-drinks">
                     <thead>
                       <tr>
-                        <th>Cold Drinks</th>
+                        <th class="l-th">Cold Drinks</th>
                       </tr>
                     </thead>
                     <tfoot>
@@ -441,19 +456,19 @@ A menu page for Shelly's Sandwich Shop
                         <td>$2.50</td>
                       </tr>
                       <tr>
-                        <td>Orangina</td>
+                        <td class="food-name">Orangina</td>
                       </tr>
                       <tr>
                         <td>Famous pulpy French citrus drink. Very refreshing!</td>
                       </tr>
                       <tr>
-                        <td>Fanta</td>
+                        <td class="food-name">Fanta</td>
                       </tr>
                       <tr>
                         <td>Orange, Lemon, Berry</td>
                       </tr>
                       <tr>
-                        <td>French <i>limonade</i></td>
+                        <td class="food-name">French <i>limonade</i></td>
                       </tr>
                       <tr>
                         <td>Imported, traditional bubbly soda. Lemon, clementine, tangerine and peach.</td>
@@ -469,19 +484,19 @@ A menu page for Shelly's Sandwich Shop
                         <td>Fresh-squeezed orange or lemon juice.</td>
                       </tr>
                       <tr>
-                        <td>Minute Maid juices</td>
+                        <td class="food-name">Minute Maid juices</td>
                       </tr>
                       <tr>
                         <td>Apple, grape, orange</td>
                       </tr>
                       <tr>
-                        <td>Nectar</td>
+                        <td class="food-name">Nectar</td>
                       </tr>
                       <tr>
                         <td>Apricot, mango and pear.</td>
                       </tr>
                       <tr>
-                        <td>Oasis</td>
+                        <td class="food-name">Oasis</td>
                       </tr>
                       <tr>
                         <td>Imported tropical fruit drink (passion fruit, pineapple, mango and others)</td>
@@ -491,13 +506,13 @@ A menu page for Shelly's Sandwich Shop
                         <td>$2.00</td>
                       </tr>
                       <tr>
-                        <td>Flat Water</td>
+                        <td class="food-name">Flat Water</td>
                       </tr>
                       <tr>
                         <td>Evian, Volvic (plain, lemon, strawberry, orange)</td>
                       </tr>
                       <tr>
-                        <td>Bubbly Water</td>
+                        <td class="food-name">Bubbly Water</td>
                       </tr>
                       <tr>
                         <td>Badoit, San Pellegrino, Perrier</td>
@@ -510,7 +525,7 @@ A menu page for Shelly's Sandwich Shop
                         <td>Freshly-brewed, unsweetened Ceylann.</td>
                       </tr>
                       <tr>
-                        <td>Nestea</td>
+                        <td class="food-name">Nestea</td>
                       </tr>
                       <tr>
                         <td>Lemon, citrus</td>
@@ -521,7 +536,7 @@ A menu page for Shelly's Sandwich Shop
                   <table id="hot-drinks">
                     <thead>
                       <tr>
-                        <th>Hot Drinks</th>
+                        <th class="l-th">Hot Drinks</th>
                       </tr>
                     </thead>
                     <tfoot>
@@ -562,13 +577,13 @@ A menu page for Shelly's Sandwich Shop
                         <td>$2.50</td>
                       </tr>
                       <tr>
-                        <td>Caffeinated</td>
+                        <td class="food-name">Caffeinated</td>
                       </tr>
                       <tr>
                         <td>Ceylann, Darjeeling, Earl Grey, peppermint</td>
                       </tr>
                       <tr>
-                        <td>Herbal</td>
+                        <td class="food-name">Herbal</td>
                       </tr>
                       <tr>
                         <td>Verbena, Mock Orange, Mint, Camomile</td>
