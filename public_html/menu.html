@@ -4,7 +4,7 @@ A menu page for Shelly's Sandwich Shop
 -->
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="styles/about.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/menu.css"/>
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
         <link href="img/sandwich.ico" rel="icon" type="image/x-icon" />
         <title>Menu | Shelly's Sandwich Shop</title>
@@ -23,515 +23,529 @@ A menu page for Shelly's Sandwich Shop
             </nav>
 
             <div class='main-content'>
-              <h2>Summer Menu</h2>
-                <table>
+              <div class="intro">
+                <h1 id="top">Shelly's Sandwich Shop</h1>
+                <p>Call us or make an online order for take-out or schedule a time for catering!</p>
+                <a href="#" id="schedule-btn">Click to Schedule!</a>
+                <h2>Summer Menu</h2>
+              </div>
+              <div class="table-container">
+                  <table>
+                      <thead>
+                          <tr>
+                              <th>Appetizers and Soups</th>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                          <tr>
+                              <td>Please ask server about any allergies or for more details on nutritional information.</td>
+                          </tr>
+                      </tfoot>
+                      <tbody>
+                          <tr>
+                              <td>Small Side Salad</td>
+                              <td>$3.00</td>
+                          </tr>
+                          <tr>
+                              <td>This small salad incorporates seasonal lettuce mixes. Please ask server for details. Served with warm, fresh bread, butter on the side and a choice of dressing.</td>
+                              <td>Add grilled chicken ... $4.75</td>
+                          </tr>
+
+                          <tr>
+                              <td>Antipasto</td>
+                              <td>$5.00</td>
+                          </tr>
+                          <tr>
+                              <td>A selection of roasted red bell peppers, roasted eggplant, sun-dried tomatoes and sautéed mushrooms with fresh parsley all dappled in olive oil and a light drizzle of Balsamic vinegar. Served room temperature.</td>
+                          </tr>
+
+                          <tr>
+                              <td>Smoked Salmon Snack</td>
+                              <td>$5.50</td>
+                          </tr>
+                          <tr>
+                              <td>Thin slices of Norwegian smoked salmon on buttered, toasted pain de mie. Served with fresh cheese on the side.</td>
+                          </tr>
+
+                          <tr>
+                              <td>Egg Mayonnaise Salad</td>
+                              <td>$3.50</td>
+                          </tr>
+                          <tr>
+                              <td>Hard-boiled, free-range egg served with homemade mayonnaise on a bed of seasonal lettuce. Served with fresh baguette and butter.</td>
+                          </tr>
+
+                          <tr>
+                              <td>Soup of the Day</td>
+                              <td>Cup ... $2.00, Bowl ... $4.00</td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  Everyday we have a different soup containing fresh, local and seasonal ingredients. Please ask server for details. Served with warm, fresh bread and butter on the side.</td>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td>French Onion Soup</td>
+                              <td>Cup ... $2.00, Bowl ... $4.00</td>
+                          </tr>
+                          <tr>
+                              <td>A classic favorite! Caramelized onions in beef bouillon. Served with toasted slices of baguette and Swiss cheese on the side.</td>
+                          </tr>
+                      </tbody>
+                  </table>
+
+                  <table>
+                      <thead>
+                          <tr>
+                              <th>Salads</th>
+                          </tr>
+                      </thead>
+                      <tfoot>
+                          <tr>
+                              <td>All salads come with your choice of baguette or French country bread and fresh European butter.</td>
+                          </tr>
+                          <tr>
+                              <td>Please ask server about any allergies or for more details on nutritional information.</td>
+                          </tr>
+                      </tfoot>
+                      <tbody>
+                          <tr>
+                              <td>Goat Cheese and its Salad</td>
+                              <td>$8.00</td>
+                          </tr>
+                          <tr>
+                              <td>Warm cabecou goat cheese patties on toasted, whole-grain baguette served on seasonal lettuce, walnuts and a walnut oil vinaigrette.</td>
+                          </tr>
+
+                          <tr>
+                              <td>Salade niçoise</td>
+                              <td>$9.00</td>
+                          </tr>
+                          <tr>
+                              <td>A Southern French classic! Shredded tuna, hard-boiled, free-range egg, niçoise olives on a bed of seasonal lettuce and vegetables and Camargue red rice. Served with red wine vinaigrette.</td>
+                          </tr>
+
+                          <tr>
+                              <td>Super Veggie Salad!</td>
+                              <td>$7.00</td>
+                          </tr>
+                          <tr>
+                              <td>Raw carrots with lemon and apple cider vinaigrette and parsley, raw celeriac with a horse radish sauce, beets in vinaigrette and cucumbers in a fresh cheese dressing, all served ice cold. Wonderful in summer!</td>
+                          </tr>
+
+                          <tr>
+                              <td>Cold Cuts and Seasonal Salad</td>
+                              <td>$12.00</td>
+                          </tr>
+                          <tr>
+                              <td>Cooked Parisian ham, rosette, dry sausage, rustic duck pâté and Bayonne ham served with seasonal salad and French cornichons. Comes with French Dijon mustard.</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <br />
+                  <a class="top-btn" href="#top">Go back to top</a>
+                  <table>
                     <thead>
-                        <tr>
-                            <th>Appetizers and Soups</th>
-                        </tr>
+                      <tr>
+                        <th>Sandwiches</th>
+                      </tr>
                     </thead>
                     <tfoot>
-                        <tr>
-                            <td>Please ask server about any allergies or for more details on nutritional information.</td>
-                        </tr>
+                      <tr>
+                        <td>All sandwiches come with your choice of drink, a personal-sized bag of chips, fries or a side salad. Sauces and type of bread can be replaced upon request, as well as additional ingredients.</td>
+                      </tr>
+                      <tr>
+                          <td>Please ask server about any allergies or for more details on nutritional information.</td>
+                      </tr>
                     </tfoot>
                     <tbody>
-                        <tr>
-                            <td>Small Side Salad</td>
-                            <td>$3.00</td>
-                        </tr>
-                        <tr>
-                            <td>This small salad incorporates seasonal lettuce mixes. Please ask server for details. Served with warm, fresh bread, butter on the side and a choice of dressing.</td>
-                            <td>Add grilled chicken ... $4.75</td>
-                        </tr>
-
-                        <tr>
-                            <td>Antipasto</td>
-                            <td>$5.00</td>
-                        </tr>
-                        <tr>
-                            <td>A selection of roasted red bell peppers, roasted eggplant, sun-dried tomatoes and sautéed mushrooms with fresh parsley all dappled in olive oil and a light drizzle of Balsamic vinegar. Served room temperature.</td>
-                        </tr>
-
-                        <tr>
-                            <td>Smoked Salmon Snack</td>
-                            <td>$5.50</td>
-                        </tr>
-                        <tr>
-                            <td>Thin slices of Norwegian smoked salmon on buttered, toasted pain de mie. Served with fresh cheese on the side.</td>
-                        </tr>
-
-                        <tr>
-                            <td>Egg Mayonnaise Salad</td>
-                            <td>$3.50</td>
-                        </tr>
-                        <tr>
-                            <td>Hard-boiled, free-range egg served with homemade mayonnaise on a bed of seasonal lettuce. Served with fresh baguette and butter.</td>
-                        </tr>
-
-                        <tr>
-                            <td>Soup of the Day</td>
-                            <td>Cup ... $2.00, Bowl ... $4.00</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Everyday we have a different soup containing fresh, local and seasonal ingredients. Please ask server for details. Served with warm, fresh bread and butter on the side.</td>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>French Onion Soup</td>
-                            <td>Cup ... $2.00, Bowl ... $4.00</td>
-                        </tr>
-                        <tr>
-                            <td>A classic favorite! Caramelized onions in beef bouillon. Served with toasted slices of baguette and Swiss cheese on the side.</td>
-                        </tr>
+                      <tr>
+                        <td>Custom Sandwich!</td>
+                        <td>$6.00</td>
+                      </tr>
+                      <tr>
+                        <td>Your choice of one meat (roast chicken, roast turkey, smoked turkey, canned tuna, cooked Parisian ham, Bayonne ham, smoked ham, Prosciutto, Bressaola, viande de Grison, roast beef, smoked salmon, smoked trout), two vegetables (lettuce, tomatoes, avocado, seasonal greens, fries, mushrooms, bell peppers, raw onions, sauteed onions, shredded carrots, cucumbers, black olives), a cheese (Swiss, Provolone, Parmagianno, Mozzarella, Camembert, Brie, Cheddar, goat) and a sauce (mayonnaise, oil and vinegar, vinaigrette, Algerian sauce, ketchup, Dijon mustard, pistou) and condiments (dill pickle, French cornichons, herbs, spices, black or green tapenade) on your choice of bread (baguette, Italian, French country bread, panini, tortilla, whole wheat, white)</td>
+                        <td>Add $1.00 for each additional ingredient, $0.50 for each sauce or condiment.</td>
+                      </tr>
+                      <tr>
+                        <td>Parisian Classic</td>
+                        <td>$3.50</td>
+                      </tr>
+                      <tr>
+                        <td>Parisian cooked ham on heavily buttered baguette. Simple but tasty!</td>
+                      </tr>
+                      <tr>
+                        <td>Rosette Classic</td>
+                        <td>$3.50</td>
+                      </tr>
+                      <tr>
+                        <td>Thin slices of rosette and French cornichons on heavily buttered baguette.</td>
+                      </tr>
+                      <tr>
+                        <td>Ham 'n' Cheese</td>
+                        <td>$4.00</td>
+                      </tr>
+                      <tr>
+                        <td>Thickly-sliced Swiss cheese, Parisian cooked ham on heavily buttered baguette.</td>
+                      </tr>
+                      <tr>
+                        <td>Chicken and Salad</td>
+                        <td>$4.50</td>
+                      </tr>
+                      <tr>
+                        <td>Generously portioned! Lots of roast chicken, lettuce, tomatoes, cucumber, shredded carrots on baguette. Served with mayonnaise.</td>
+                      </tr>
+                      <tr>
+                        <td>Le Provençal</td>
+                        <td>$6.50</td>
+                      </tr>
+                      <tr>
+                        <td>Smoked trout with ratatouille and black tapenade served warm on a panini. Open-faced sandwich</td>
+                      </tr>
+                      <tr>
+                        <td>Mushroom Delight</td>
+                        <td>$5.50</td>
+                      <tr>
+                        <td>Sauteed mushrooms (<i>champignons de Paris</i> and seasonal mushrooms, please ask) served with Swiss cheese on a bed of seasonal greens. Served on French country bread.</td>
+                      </tr>
+                      <tr>
+                        <td>Salmon Blinis</td>
+                        <td>$8.00</td>
+                      </tr>
+                      <tr>
+                        <td>Norwegian smoked salmon served with clotted cream and blinis. Side dish of cucumbers, salad greens and tomatoes.</td>
+                      </tr>
+                      <tr>
+                        <td>Breakfast Sandwich</td>
+                        <td>$5.00</td>
+                      </tr>
+                      <tr>
+                        <td>Scrambled eggs served in a flour tortilla wrap with salsa, jalapenos and sauteed potatoes.</td>
+                      </tr>
+                      <tr>
+                        <td>Cabecou and Salad Sandwich</td>
+                        <td>$6.00</td>
+                      </tr>
+                      <tr>
+                        <td>Hot, cabecou goat cheese on toasted, rustic, well-buttered French country bread served with seasonal greens, walnuts and vinaigrette.</td>
+                      </tr>
+                      <tr>
+                        <td>French Hoagie, Oh My!</td>
+                        <td>$6.50</td>
+                      </tr>
+                      <tr>
+                        <td>Rosette, Parisian cooked ham, lots of butter, vinaigrette, salad greens, tomatoes, olives and camembert on a baguette. Bring your appetite!</td>
+                      </tr>
+                      <tr>
+                        <td>Little Italian Sub</td>
+                        <td>$6.00</td>
+                      </tr>
+                      <tr>
+                        <td>Bressaola and prosciutto with provolone cheese and seasonal greens served with Italian bread and olive oil.</td>
+                      </tr>
+                      <tr>
+                        <td>Croque Monsieur</td>
+                        <td>$4.00</td>
+                      </tr>
+                      <tr>
+                        <td>Another way to eat a grilled cheese sandwich! Swiss cheese, cooked Parisian ham and bechamel sauce on white bread. Served with fries.</td>
+                      </tr>
+                      <tr>
+                        <td>Croque Madame</td>
+                        <td>$5.00</td>
+                      </tr>
+                      <tr>
+                        <td>Like a <i>croque monsieur</i> but add a sunny-side up, free-range egg on top. Simply delicious and wholesome! Served with fries.</td>
+                      </tr>
+                      <tr>
+                        <td>Tartiflette Sandwich</td>
+                        <td>$7.00</td>
+                      </tr>
+                      <tr>
+                        <td>Hungry? Have one of these! Slices of potato, copious amounts of reblochon cheese, <i>lardons</i> and onions. Served on warm baguette.</td>
+                      </tr>
+                      <tr>
+                        <td>Raclette Sandwich</td>
+                        <td>$9.00</td>
+                      </tr>
+                      <tr>
+                        <td>Hot, raclette cheese topping fine slices of viande de Grison and potatoes and French cornichons served on French country bread. Very filling!</td>
+                      </tr>
                     </tbody>
-                </table>
-
-                <table>
+                  </table>
+                  <br />
+                  <a class="top-btn" href="#top">Go back to top</a>
+                  <table>
                     <thead>
-                        <tr>
-                            <th>Salads</th>
-                        </tr>
+                      <tr>
+                        <th>Sides</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Fries</td>
+                        <td>$2.50</td>
+                      </tr>
+                      <tr>
+                        <td>Famous <i>alumettes</i> fries, served with ketchup, mayonnaise or vinegar and salt.</td>
+                      </tr>
+                      <tr>
+                        <td>Sauteed Potatoes</td>
+                        <td>$3.00</td>
+                      </tr>
+                      <tr>
+                        <td>Potatoes sauteed in the Sarladaise fashion with <i>herbes de Province</i> and garlic.</td>
+                      </tr>
+                      <tr>
+                        <td>Soft-boiled Eggs</td>
+                        <td>$2.00</td>
+                      </tr>
+                      <tr>
+                        <td>Two cage-free, farm-fresh, soft-boiled eggs from corn-fed chickens.</td>
+                      </tr>
+                      <tr>
+                        <td>Green Beans (Haricots)</td>
+                        <td>$2.50</td>
+                      </tr>
+                      <tr>
+                        <td>Either served warm, with a dash of diced garlic, or cold, with vinaigrette.</td>
+                      </tr>
+                      <tr>
+                        <td>French White Beans (Flageolets)</td>
+                        <td>$2.00</td>
+                      </tr>
+                      <tr>
+                        <td>A copious portion of white beans cooked in a garlic sauce. A classic!</td>
+                      </tr>
+                      <tr>
+                        <td>Ratatouille!</td>
+                        <td>$3.50</td>
+                      </tr>
+                      <tr>
+                        <td>Vegetable side made from tomatoes, eggplant, zucchini, red bell peppers, garlic, onions and <i>bouquet garni</i>. Please specify if you want it served hot or cold.</td>
+                      </tr>
+                      <tr>
+                        <td>Chips (small packet)</td>
+                        <td>$1.00</td>
+                      </tr>
+                      <tr>
+                        <td>Artisanal chips that come in the following flavors: lightly salted, sea salt and cracked, black pepper, salt and vinegar, <i>herbes de province</i>.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Bread and Sauces</th>
+                      </tr>
                     </thead>
                     <tfoot>
-                        <tr>
-                            <td>All salads come with your choice of baguette or French country bread and fresh European butter.</td>
-                        </tr>
-                        <tr>
-                            <td>Please ask server about any allergies or for more details on nutritional information.</td>
-                        </tr>
+                      <tr>
+                        <td>Bread is baked in the restaurant two times daily. Please let us know if you would like to order some.</td>
+                      </tr>
                     </tfoot>
                     <tbody>
-                        <tr>
-                            <td>Goat Cheese and its Salad</td>
-                            <td>$8.00</td>
-                        </tr>
-                        <tr>
-                            <td>Warm cabecou goat cheese patties on toasted, whole-grain baguette served on seasonal lettuce, walnuts and a walnut oil vinaigrette.</td>
-                        </tr>
-
-                        <tr>
-                            <td>Salade niçoise</td>
-                            <td>$9.00</td>
-                        </tr>
-                        <tr>
-                            <td>A Southern French classic! Shredded tuna, hard-boiled, free-range egg, niçoise olives on a bed of seasonal lettuce and vegetables and Camargue red rice. Served with red wine vinaigrette.</td>
-                        </tr>
-
-                        <tr>
-                            <td>Super Veggie Salad!</td>
-                            <td>$7.00</td>
-                        </tr>
-                        <tr>
-                            <td>Raw carrots with lemon and apple cider vinaigrette and parsley, raw celeriac with a horse radish sauce, beets in vinaigrette and cucumbers in a fresh cheese dressing, all served ice cold. Wonderful in summer!</td>
-                        </tr>
-
-                        <tr>
-                            <td>Cold Cuts and Seasonal Salad</td>
-                            <td>$12.00</td>
-                        </tr>
-                        <tr>
-                            <td>Cooked Parisian ham, rosette, dry sausage, rustic duck pâté and Bayonne ham served with seasonal salad and French cornichons. Comes with French Dijon mustard.</td>
-                        </tr>
+                      <tr>
+                        <td>Baguette, Italian bread</td>
+                        <td>$1.50</td>
+                      </tr>
+                      <tr>
+                        <td>Panini, French country bread (<i>boule</i>)</td>
+                        <td>$2.00</td>
+                      </tr>
+                      <tr>
+                        <td>French white bread (<i>pain de mie</i>), whole wheat bread</td>
+                        <td>$1.25</td>
+                      </tr>
+                      <tr>
+                        <td>Ketchup, mayonnaise, bechamel, vinaigrette, vinegar, olive oil, <i>pistou</i> (French pesto), <i>tapenade</i> (black and green olives), Algerian sauce (mayonnaise and <i>harissa</i>) and Dijon mustard.</td>
+                      </tr>
                     </tbody>
-                </table>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Sandwiches</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <td>All sandwiches come with your choice of drink, a personal-sized bag of chips, fries or a side salad. Sauces and type of bread can be replaced upon request, as well as additional ingredients.</td>
-                    </tr>
-                    <tr>
-                        <td>Please ask server about any allergies or for more details on nutritional information.</td>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>Custom Sandwich!</td>
-                      <td>$6.00</td>
-                    </tr>
-                    <tr>
-                      <td>Your choice of one meat (roast chicken, roast turkey, smoked turkey, canned tuna, cooked Parisian ham, Bayonne ham, smoked ham, Prosciutto, Bressaola, viande de Grison, roast beef, smoked salmon, smoked trout), two vegetables (lettuce, tomatoes, avocado, seasonal greens, fries, mushrooms, bell peppers, raw onions, sauteed onions, shredded carrots, cucumbers, black olives), a cheese (Swiss, Provolone, Parmagianno, Mozzarella, Camembert, Brie, Cheddar, goat) and a sauce (mayonnaise, oil and vinegar, vinaigrette, Algerian sauce, ketchup, Dijon mustard, pistou) and condiments (dill pickle, French cornichons, herbs, spices, black or green tapenade) on your choice of bread (baguette, Italian, French country bread, panini, tortilla, whole wheat, white)</td>
-                      <td>Add $1.00 for each additional ingredient, $0.50 for each sauce or condiment.</td>
-                    </tr>
-                    <tr>
-                      <td>Parisian Classic</td>
-                      <td>$3.50</td>
-                    </tr>
-                    <tr>
-                      <td>Parisian cooked ham on heavily buttered baguette. Simple but tasty!</td>
-                    </tr>
-                    <tr>
-                      <td>Rosette Classic</td>
-                      <td>$3.50</td>
-                    </tr>
-                    <tr>
-                      <td>Thin slices of rosette and French cornichons on heavily buttered baguette.</td>
-                    </tr>
-                    <tr>
-                      <td>Ham 'n' Cheese</td>
-                      <td>$4.00</td>
-                    </tr>
-                    <tr>
-                      <td>Thickly-sliced Swiss cheese, Parisian cooked ham on heavily buttered baguette.</td>
-                    </tr>
-                    <tr>
-                      <td>Chicken and Salad</td>
-                      <td>$4.50</td>
-                    </tr>
-                    <tr>
-                      <td>Generously portioned! Lots of roast chicken, lettuce, tomatoes, cucumber, shredded carrots on baguette. Served with mayonnaise.</td>
-                    </tr>
-                    <tr>
-                      <td>Le Provençal</td>
-                      <td>$6.50</td>
-                    </tr>
-                    <tr>
-                      <td>Smoked trout with ratatouille and black tapenade served warm on a panini. Open-faced sandwich</td>
-                    </tr>
-                    <tr>
-                      <td>Mushroom Delight</td>
-                      <td>$4.50</td>
-                    </tr>
-                    <tr>
-                      <td>Sauteed mushrooms served with Swiss cheese on a bed of seasonal greens. Served on French country bread.</td>
-                    </tr>
-                    <tr>
-                      <td>Salmon Blinis</td>
-                      <td>$8.00</td>
-                    </tr>
-                    <tr>
-                      <td>Norwegian smoked salmon served with clotted cream and blinis. Side dish of cucumbers, salad greens and tomatoes.</td>
-                    </tr>
-                    <tr>
-                      <td>Breakfast Sandwich</td>
-                      <td>$5.00</td>
-                    </tr>
-                    <tr>
-                      <td>Scrambled eggs served in a flour tortilla wrap with salsa, jalapenos and sauteed potatoes.</td>
-                    </tr>
-                    <tr>
-                      <td>Cabecou and Salad Sandwich</td>
-                      <td>$6.00</td>
-                    </tr>
-                    <tr>
-                      <td>Hot, cabecou goat cheese on toasted, rustic, well-buttered French country bread served with seasonal greens, walnuts and vinaigrette.</td>
-                    </tr>
-                    <tr>
-                      <td>French Hoagie, Oh My!</td>
-                      <td>$6.50</td>
-                    </tr>
-                    <tr>
-                      <td>Rosette, Parisian cooked ham, lots of butter, vinaigrette, salad greens, tomatoes, olives and camembert on a baguette. Bring your appetite!</td>
-                    </tr>
-                    <tr>
-                      <td>Little Italian Sub</td>
-                      <td>$6.00</td>
-                    </tr>
-                    <tr>
-                      <td>Bressaola and prosciutto with provolone cheese and seasonal greens served with Italian bread and olive oil.</td>
-                    </tr>
-                    <tr>
-                      <td>Croque Monsieur</td>
-                      <td>$4.00</td>
-                    </tr>
-                    <tr>
-                      <td>Another way to eat a grilled cheese sandwich! Swiss cheese, Parisian cooked ham and bechamel sauce on white bread. Served with fries.</td>
-                    </tr>
-                    <tr>
-                      <td>Croque Madame</td>
-                      <td>$5.00</td>
-                    </tr>
-                    <tr>
-                      <td>Like a <i>croque monsieur</i> but add a sunny-side up, free-range egg on top. Simply delicious and wholesome! Served with fries.</td>
-                    </tr>
-                    <tr>
-                      <td>Tartiflette Sandwich</td>
-                      <td>$7.00</td>
-                    </tr>
-                    <tr>
-                      <td>Hungry? Have one of these! Slices of potato, copious amounts of reblochon cheese, <i>lardons</i> and onions. Served on warm baguette.</td>
-                    </tr>
-                    <tr>
-                      <td>Raclette Sandwich</td>
-                      <td>$9.00</td>
-                    </tr>
-                    <tr>
-                      <td>Hot, raclette cheese topping fine slices of viande de Grison and potatoes and French cornichons served on French country bread. Very filling!</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Sides</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Fries</td>
-                      <td>$2.50</td>
-                    </tr>
-                    <tr>
-                      <td>Famous "alumettes" fries, served with ketchup, mayonnaise or vinegar and salt.</td>
-                    </tr>
-                    <tr>
-                      <td>Sauteed Potatoes</td>
-                      <td>$3.00</td>
-                    </tr>
-                    <tr>
-                      <td>Potatoes sauteed in the Sarladaise fashion with <i>herbes de Province</i> and garlic.</td>
-                    </tr>
-                    <tr>
-                      <td>Soft-boiled Eggs</td>
-                      <td>$2.00</td>
-                    </tr>
-                    <tr>
-                      <td>Two cage-free, farm-fresh, soft-boiled eggs from corn-fed chickens.</td>
-                    </tr>
-                    <tr>
-                      <td>Green Beans (Haricots)</td>
-                      <td>$2.50</td>
-                    </tr>
-                    <tr>
-                      <td>Either served warm, with a dash of diced garlic, or cold, with vinaigrette.</td>
-                    </tr>
-                    <tr>
-                      <td>French White Beans (Flageolets)</td>
-                      <td>$2.00</td>
-                    </tr>
-                    <tr>
-                      <td>A copious portion of white beans cooked in a garlic sauce. A classic!</td>
-                    </tr>
-                    <tr>
-                      <td>Ratatouille!</td>
-                      <td>$3.50</td>
-                    </tr>
-                    <tr>
-                      <td>A warm or cold, vegetable side made from tomatoes, eggplant, zucchini, red bell peppers, garlic, onions and <i>bouquet garni</i>.</td>
-                    </tr>
-                    <tr>
-                      <td>Chips (small packet)</td>
-                      <td>$1.00</td>
-                    </tr>
-                    <tr>
-                      <td>Artisanal chips that come in the following flavors: lightly salted, sea salt and cracked, black pepper, salt and vinegar, <i>herbes de province</i>.</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Bread and Sauces</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <td>Bread is baked in the restaurant two times daily. Please let us know if you would like to order some.</td>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>Baguette, Italian bread</td>
-                      <td>$1.50</td>
-                    </tr>
-                    <tr>
-                      <td>Panini, French country bread</td>
-                      <td>$2.00</td>
-                    </tr>
-                    <tr>
-                      <td>French white bread (<i>pain de mie</i>), whole wheat bread</td>
-                      <td>$1.25</td>
-                    </tr>
-                    <tr>
-                      <td>Ketchup, mayonnaise, bechamel, vinaigrette, vinegar, olive oil, <i>pistou</i> (French pesto), <i>tapenade</i> (black and green olives), Algerian sauce (mayonnaise and <i>harissa</i>) and Dijon mustard.</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Desserts</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <td>Please ask your server for the dessert of the day. We have soy-milk and almond-milk options for every ice cream flavor!</td>
-                    </tr>
-                    <tr>
-                      <td>Add a scoop of French vanilla bean ice cream for $1.50 to any dessert.</td>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>Strawberry Super Sandwich</td>
-                      <td>$4.00</td>
-                    </tr>
-                    <tr>
-                      <td>Fresh strawberries, fresh cheese on buttered white bread. Served with lots of whipped cream.</td>
-                    </tr>
-                    <tr>
-                      <td>Iced Sandwich</td>
-                      <td>$4.00 + 1 with additional ingredients</td>
-                    </tr>
-                    <tr>
-                      <td>Customize your own with a scoop of ice cream (strawberry, French vanilla bean, dark chocolate, salted caramel, cinnamon or pistacchio), fruit (strawberries, raspberries, apples, pears, cherries) or chunks (chocolate, caramel, toffee) in between either two cookies (chocolate chip, shortbreads, pecan cookies or oatmeal cookies) or two macaroons (chocolate, strawberry, pistacchio, coffee) and whipped cream.</td>
-                    </tr>
-                    <tr>
-                      <td>Clafoutis</td>
-                      <td>$3.50</td>
-                    </tr>
-                    <tr>
-                      <td>A cooked custard containing your choice of cherry, plum, strawberry or blackberry. A French classic!</td>
-                    </tr>
-                    <tr>
-                      <td>French Apple Tart</td>
-                      <td>$4.00</td>
-                    </tr>
-                    <tr>
-                      <td>Slices of apple in custard served on a fine, butter crust. Served warm.</td>
-                    </tr>
-                    <tr>
-                      <td>Meringue Strawberry Sandwich</td>
-                      <td>$4.00</td>
-                    </tr>
-                    <tr>
-                      <td>Strawberries, strawberry jam with whipped cream in between two very generously-sized vanilla meringues.</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Cold Drinks</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <td>Imported drinks subject to availability.</td>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <th>Soft Drinks</th>
-                      <th>$2.50</th>
-                    </tr>
-                    <tr>
-                      <td>Orangina</td>
-                      <td>Famous pulpy French citrus drink. Very refreshing!</td>
-                    </tr>
-                    <tr>
-                      <td>Fanta</td>
-                      <td>Orange, Lemon, Berry</td>
-                    </tr>
-                    <tr>
-                      <td>French <i>limonade</i></td>
-                      <td>Imported, traditional bubbly soda. Lemon, clementine, tangerine and peach.</td>
-                    </tr>
-                    <tr>
-                      <td>Coke, Diet Coke, Coke Zero, Sprite, Schwepps</td>
-                    </tr>
-                    <tr>
-                      <th>Juices</th>
-                      <td>$2.00</td>
-                    </tr>
-                    <tr>
-                      <td>Fresh-squeezed orange or lemon juice.</td>
-                    </tr>
-                    <tr>
-                      <td>Minute Maid juices</td>
-                      <td>Apple, grape, orange</td>
-                    </tr>
-                    <tr>
-                      <td>Nectar</td>
-                      <td>Apricot, mango and pear.</td>
-                    </tr>
-                    <tr>
-                      <td>Oasis</td>
-                      <td>Imported tropical fruit drink (passion fruit, pineapple, mango and others)</td>
-                    </tr>
-                    <tr>
-                      <th>Water</th>
-                      <td>$2.00</td>
-                    </tr>
-                    <tr>
-                      <td>Flat Water</td>
-                      <td>Evian, Volvic (plain, lemon, strawberry, orange)</td>
-                    </tr>
-                    <tr>
-                      <td>Bubbly Water</td>
-                      <td>Badoit, San Pellegrino, Perrier</td>
-                    </tr>
-                    <tr>
-                      <th>Iced Tea</th>
-                      <th>$2.50</th>
-                    </tr>
-                    <tr>
-                      <td>Freshly-brewed, unsweetened Ceylann.</td>
-                    </tr>
-                    <tr>
-                      <td>Nestea</td>
-                      <td>Lemon, citrus</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Hot Drinks</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                      <td>All coffee is Carte Noire.</td>
-                      <td>All tea is St.-Dalfour. All herbal tea is Elephant.</td>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <th>Coffee</th>
-                    </tr>
-                    <tr>
-                      <td>Espresso</td>
-                      <td>Single, $1.50</td>
-                      <td>Double, $2.75</td>
-                    </tr>
-                    <tr>
-                      <td><i>Café au lait</i></td>
-                      <td>$3.00</td>
-                    </tr>
-                    <tr>
-                      <td>Cappucino</td>
-                      <td>$3.00</td>
-                    </tr>
-                    <tr>
-                      <td>Mocha</td>
-                      <td>$3.00</td>
-                    </tr>
-                    <tr>
-                      <td>Latte</td>
-                      <td>$3.00</td>
-                    </tr>
-                    <tr>
-                      <th>Tea</th>
-                      <th>$2.50</th>
-                    </tr>
-                    <tr>
-                      <td>Caffeinated</td>
-                      <td>Ceylann, Darjeeling, Earl Grey, peppermint</td>
-                    </tr>
-                    <tr>
-                      <td>Herbal</td>
-                      <td>Verbena, Mock Orange, Mint, Camomile</td>
-                    </tr>
-                  </tbody>
-                </table>
+                  </table>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Desserts</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <td>Please ask your server for the dessert of the day. We have soy-milk and almond-milk options for every ice cream flavor!</td>
+                      </tr>
+                      <tr>
+                        <td>Add a scoop of French vanilla bean ice cream for $1.50 to any dessert.</td>
+                      </tr>
+                    </tfoot>
+                    <tbody>
+                      <tr>
+                        <td>Strawberry Super Sandwich</td>
+                        <td>$4.00</td>
+                      </tr>
+                      <tr>
+                        <td>Fresh strawberries, fresh cheese on buttered white bread. Served with lots of whipped cream.</td>
+                      </tr>
+                      <tr>
+                        <td>Iced Sandwich</td>
+                        <td>$4.00 + 1 with additional ingredients</td>
+                      </tr>
+                      <tr>
+                        <td>Customize your own with a scoop of ice cream (strawberry, French vanilla bean, dark chocolate, salted caramel, cinnamon or pistacchio), fruit (strawberries, raspberries, apples, pears, cherries) or chunks (chocolate, caramel, toffee) in between either two cookies (chocolate chip, shortbreads, pecan cookies or oatmeal cookies) or two macaroons (chocolate, strawberry, pistacchio, coffee) and whipped cream.</td>
+                      </tr>
+                      <tr>
+                        <td>Clafoutis</td>
+                        <td>$3.50</td>
+                      </tr>
+                      <tr>
+                        <td>A cooked custard containing your choice of cherry or plum. A French classic!</td>
+                      </tr>
+                      <tr>
+                        <td>French Apple Tart</td>
+                        <td>$4.00</td>
+                      </tr>
+                      <tr>
+                        <td>Slices of apple in custard served on a fine, butter crust. Served warm.</td>
+                      </tr>
+                      <tr>
+                        <td>Meringue Strawberry Sandwich</td>
+                        <td>$4.00</td>
+                      </tr>
+                      <tr>
+                        <td>Strawberries, strawberry jam with whipped cream in between two very generously-sized vanilla meringues.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br />
+                  <a class="top-btn" href="#top">Go back to top</a>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Cold Drinks</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <td>Imported drinks subject to availability.</td>
+                      </tr>
+                    </tfoot>
+                    <tbody>
+                      <tr>
+                        <th class="sm-th">Soft Drinks</th>
+                        <td>$2.50</td>
+                      </tr>
+                      <tr>
+                        <td>Orangina</td>
+                        <td>Famous pulpy French citrus drink. Very refreshing!</td>
+                      </tr>
+                      <tr>
+                        <td>Fanta</td>
+                        <td>Orange, Lemon, Berry</td>
+                      </tr>
+                      <tr>
+                        <td>French <i>limonade</i></td>
+                        <td>Imported, traditional bubbly soda. Lemon, clementine, tangerine and peach.</td>
+                      </tr>
+                      <tr>
+                        <td>Coke, Diet Coke, Coke Zero, Sprite, Schwepps</td>
+                      </tr>
+                      <tr>
+                        <th class="sm-th">Juices</th>
+                        <td>$2.00</td>
+                      </tr>
+                      <tr>
+                        <td>Fresh-squeezed orange or lemon juice.</td>
+                      </tr>
+                      <tr>
+                        <td>Minute Maid juices</td>
+                        <td>Apple, grape, orange</td>
+                      </tr>
+                      <tr>
+                        <td>Nectar</td>
+                        <td>Apricot, mango and pear.</td>
+                      </tr>
+                      <tr>
+                        <td>Oasis</td>
+                        <td>Imported tropical fruit drink (passion fruit, pineapple, mango and others)</td>
+                      </tr>
+                      <tr>
+                        <th class="sm-th">Water</th>
+                        <td>$2.00</td>
+                      </tr>
+                      <tr>
+                        <td>Flat Water</td>
+                        <td>Evian, Volvic (plain, lemon, strawberry, orange)</td>
+                      </tr>
+                      <tr>
+                        <td>Bubbly Water</td>
+                        <td>Badoit, San Pellegrino, Perrier</td>
+                      </tr>
+                      <tr>
+                        <th class="sm-th">Iced Tea</th>
+                        <td>$2.50</td>
+                      </tr>
+                      <tr>
+                        <td>Freshly-brewed, unsweetened Ceylann.</td>
+                      </tr>
+                      <tr>
+                        <td>Nestea</td>
+                        <td>Lemon, citrus</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Hot Drinks</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <td><a href="#">Java Joe's</a> coffee! Fresh, everyday.</td>
+                        <td>All tea is <a href="#">St.-Dalfour</a>, organic tea. All herbal tea is <a href="#">Eléphant</a>.</td>
+                      </tr>
+                    </tfoot>
+                    <tbody>
+                      <tr>
+                        <th class="sm-th">Coffee</th>
+                      </tr>
+                      <tr>
+                        <td>Espresso</td>
+                        <td>Single, $1.50</td>
+                        <td>Double, $2.75</td>
+                      </tr>
+                      <tr>
+                        <td><i>Café au lait</i></td>
+                        <td>$3.00</td>
+                      </tr>
+                      <tr>
+                        <td>Cappucino</td>
+                        <td>$3.00</td>
+                      </tr>
+                      <tr>
+                        <td>Mocha</td>
+                        <td>$3.00</td>
+                      </tr>
+                      <tr>
+                        <td>Latte</td>
+                        <td>$3.00</td>
+                      </tr>
+                      <tr>
+                        <th class="sm-th">Tea</th>
+                        <td>$2.50</td>
+                      </tr>
+                      <tr>
+                        <td>Caffeinated</td>
+                        <td>Ceylann, Darjeeling, Earl Grey, peppermint</td>
+                      </tr>
+                      <tr>
+                        <td>Herbal</td>
+                        <td>Verbena, Mock Orange, Mint, Camomile</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br />
+                  <a class="top-btn" href="#top">Go back to top</a>
+              </div>
             </div>
         </div>
 

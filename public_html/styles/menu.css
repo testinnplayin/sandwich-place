@@ -1,8 +1,8 @@
 /*
-STYLESHEET FOR INDEX PAGE
+STYLESHEET FOR MENU PAGE
 */
 /*
-    Created on : Jun 16, 2016, 10:25:53 PM
+    Created on : Oct 20, 2016
     Author     : rachelle
 */
 
@@ -29,10 +29,8 @@ h1 {
 
 h2 {
     font-size: 3rem;
-}
-
-h3 {
-    font-size: 1.5rem;
+    text-align: center;
+    color: #DC143C;
 }
 
 .container {
@@ -116,55 +114,12 @@ a:active {
     padding: 1px 15px;
 }
 
-.introduction {
-    text-align: center;
-    margin: auto;
+.intro {
+  text-align: center;
 }
 
-#main-pic {
-    width:50%;
-}
-
-.feature-section {
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.section1,
-.section2,
-.section3 {
-    width: 33%;
-    display: inline-block;
-    margin: 0 5px;
-    padding: 5px;
-
-}
-
-
-.secondary-pic {
-    border-radius: 10px;
-}
-
-/* SECONDARY CONTENT STYLES */
-
-.tertiary-pic {
-    width: 50%;
-    border-radius: 10px;
-}
-
-.secondary-content {
-    background-color: #B0C4DE;
-    text-align: center;
-    margin: -55px;
-    height: 1000px;
-}
-
-.secondary-content h2{
-    padding: 5px 0;
-}
-
-.secondary-content p {
-    padding: 25px;
+p {
+  margin-bottom: 45px;
 }
 
 #schedule-btn {
@@ -174,6 +129,10 @@ a:active {
     box-shadow: 0 0 2px 2px #000;
     border-radius: 5px;
     margin: 5px 0;
+}
+
+.table-container {
+  border: 1px solid black;
 }
 
 #schedule-btn:link {
@@ -188,6 +147,13 @@ a:active {
     color: #8B0000;
 }
 
+tfoot tr td {
+  font-size: 14px;
+}
+
+.sm-th {
+  font-size: 16px;
+}
 
 /* FOOTER STYLES */
 
